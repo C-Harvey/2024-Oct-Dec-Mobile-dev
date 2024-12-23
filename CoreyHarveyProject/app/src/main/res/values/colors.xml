@@ -1,0 +1,15 @@
+<resources>
+    <!-- Light Mode Color Definitions -->
+    <color name="background">#6d7448</color>
+    <color name="button">#a9a9aa</color>
+    <color name="grid_background">#5e5e5e</color>
+    <color name="grid_description">#afafaf</color>
+
+    <!-- Primary Brand Colors -->
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

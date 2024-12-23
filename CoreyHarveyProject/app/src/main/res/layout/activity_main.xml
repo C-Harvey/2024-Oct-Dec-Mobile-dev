@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Top Buttons for Inventory and SMS Notifications -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:padding="8dp">
+
+        <!-- Button to open Inventory -->
+        <Button
+            android:id="@+id/inventoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openInventory"
+            android:text="Inventory" />
+
+        <!-- Button to open SMS Notifications -->
+        <Button
+            android:id="@+id/smsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMS Notifications"
+            android:onClick="openSMS"/>
+    </LinearLayout>
+
+    <!-- Main GridView for inventory items -->
+    <GridView
+        android:id="@+id/inventoryGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:divider="@drawable/border"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

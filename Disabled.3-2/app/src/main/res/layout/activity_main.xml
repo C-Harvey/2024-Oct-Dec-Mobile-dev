@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonSayHello"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonSayHello"
+        android:layout_width="326dp"
+        android:layout_height="111dp"
+        android:text="Say Hello"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <EditText
+        android:id="@+id/textGreeting"
+        android:layout_width="269dp"
+        android:layout_height="86dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Hello"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="166dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
